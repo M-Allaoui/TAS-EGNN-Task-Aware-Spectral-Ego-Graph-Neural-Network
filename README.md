@@ -34,14 +34,6 @@ Main dependencies:
 - scikit-learn  
 - tqdm
 
-Install all dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 🔧 Installation
 
 Clone the repository and install the environment:
@@ -57,7 +49,7 @@ source .venv/bin/activate      # Linux / macOS
 pip install -r requirements.txt
 ```
 
-(Alternatively you can use conda)
+(Alternatively, you can use conda)
 
 ```bash
 conda create -n tas-egnn python=3.9
@@ -86,16 +78,7 @@ TAS-EGNN/
 Automatically loaded:
 - Cora
 - Citeseer
-
-### Fraud Detection Datasets
-Expected as CSV files:
-- PaySim
-- BankSim
-- ECC Credit Card
-
-These tabular datasets are automatically converted into graphs using a k-nearest-neighbor graph construction.
-
-Place dataset CSV files in a local folder and update the path inside `datasets.py` if needed.
+These tabular datasets are automatically converted into graphs using a k-nearest-neighbor graph construction, but if you use datasets as CSV files, please place them in a local folder, update the path inside `datasets.py` if needed.
 
 ---
 
@@ -105,12 +88,6 @@ Place dataset CSV files in a local folder and update the path inside `datasets.p
 ```bash
 python TAS-EGNN.py --dataset Cora --model GraphSAGE --ratio 0.25
 ```
-
-### Example: Fraud datasets
-```bash
-python TAS-EGNN.py --dataset paysim --model GraphSAGE --ratio 0.25
-```
-
 ---
 
 ## 🔁 Reproducibility
@@ -140,13 +117,7 @@ The program reports:
 
 If you use this repository in your research, please cite:
 
-```bibtex
-@inproceedings{allaoui2026tasegnn,
-  title     = {TAS-EGNN: Task-Aware Spectral Ego-Graphs for Efficient GNN-Based Classification},
-  author    = {Allaoui, Mebarka and Hedjam, Rachid and Gupta, Sonia},
-  booktitle = {Proceedings of AISTATS},
-  year      = {2026}
-}
+```It's coming soon.
 ```
 
 ---
