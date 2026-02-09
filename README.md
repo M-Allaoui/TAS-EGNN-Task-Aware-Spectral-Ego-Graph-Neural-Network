@@ -17,7 +17,7 @@ TAS-EGNN avoids global eigendecomposition and heavy bilevel optimization, delive
 ## ✨ Highlights
 - **Task-aware** coreset selection with structural + predictive cues
 - **Local** computations only (no full-graph spectral factorizations)
-- Works across **citation**, **social**, and **transaction-fraud** graphs
+- Works across **citation**, **social**, **products**, and **transaction-fraud** graphs
 - Reports **accuracy** (benchmarks) and **PR-AUC** (fraud), plus time & peak GPU memory
 
 ---
