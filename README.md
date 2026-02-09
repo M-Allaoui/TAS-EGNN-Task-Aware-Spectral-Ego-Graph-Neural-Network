@@ -39,7 +39,7 @@ Main dependencies:
 Clone the repository and install the environment:
 
 ```bash
-[git clone https://github.com/M-Allaoui/TAS-EGNN-Task-Aware-Spectral-Ego-Graph-Neural-Network.git]
+[git clone https://github.com/M-Allaoui/TAS-EGNN.git]
 cd TAS-EGNN
 
 python -m venv .venv
