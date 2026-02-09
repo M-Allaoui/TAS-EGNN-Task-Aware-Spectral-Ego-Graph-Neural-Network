@@ -39,7 +39,7 @@ Main dependencies:
 Clone the repository and install the environment:
 
 ```bash
-[git clone https://github.com/<your-username>/TAS-EGNN.git](https://github.com/M-Allaoui/TAS-EGNN-Task-Aware-Spectral-Ego-Graph-Neural-Network.git)
+[git clone https://github.com/M-Allaoui/TAS-EGNN-Task-Aware-Spectral-Ego-Graph-Neural-Network.git]
 cd TAS-EGNN
 
 python -m venv .venv
@@ -78,6 +78,7 @@ TAS-EGNN/
 Automatically loaded:
 - Cora
 - Citeseer
+
 These tabular datasets are automatically converted into graphs using a k-nearest-neighbor graph construction, but if you use datasets as CSV files, please place them in a local folder, update the path inside `datasets.py` if needed.
 
 ---
